@@ -56,7 +56,7 @@ function CheckGuess(){
     
 }
 function GenerateWord() {
-    var words = [ 'AAH', 'AAL', 'AAS', 'ABA', 'ABB', 'ABO', 'ABS', 'ISM', 'ISO', 'ITA', 'ITS', 'IVY', 'IWI', 'JAB' ];
+    var words = ["hit","bat","act","ice","ask","tie","sum","tip","bar","pen","sun","egg","top","lid","fly","lip","man","pie","row","eye","rib","buy","cat","net","war","sit","hut","pin","set","bay","ban","spy","bow","hot","log","pit","ash"];
     word = words[Math.floor(Math.random() * words.length )];
     DisplayWord(word);
 };
