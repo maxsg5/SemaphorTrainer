@@ -63,7 +63,7 @@ function GenerateWord() {
 
 function DisplayWord(word) {
     chars = word.split('');
-    console.log(chars);
+    console.log(word);
     for (let index = 0; index < chars.length; index++) {
         $(flagWord).append('<div class="col-sm"><img src="./Images/' + letterMap[chars[index].toLowerCase()][0] + '" class="img-fluid" alt="..."></div>');
         
